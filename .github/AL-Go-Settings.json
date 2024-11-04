@@ -8,7 +8,8 @@
   "runs-on": "ubuntu-latest",
   "githubRunner": "ubuntu-latest",
   "DeployToQA": {
-    "ContinuousDeployment": false
+    "ContinuousDeployment": false,
+    "DependencyInstallMode": "Ignore"
   },
   "DeployToQA1": {
     "ContinuousDeployment": false,
