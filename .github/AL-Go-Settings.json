@@ -6,5 +6,12 @@
   "doNotPublishApps": true,
   "generateDependencyArtifact": true,
   "runs-on": "ubuntu-latest",
-  "githubRunner": "ubuntu-latest"
+  "githubRunner": "ubuntu-latest",
+  "DeployToQA": {
+    "ContinuousDeployment": false
+  },
+  "DeployToQA1": {
+    "ContinuousDeployment": false,
+    "DependencyInstallMode": "Upgrade"
+  }
 }
